@@ -8,6 +8,7 @@ import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Explore from "../pages/Explore";
 import Travel from "../pages/Travel";
+import ReadMore from "../pages/ReadMore";
 
 const Routers = () => {
   return (
@@ -21,6 +22,7 @@ const Routers = () => {
       <Route path="/signup" element={<Signup />} />
       <Route path="/explore" element={<Explore />} />
       <Route path="/travel" element={<Travel />} />
+      <Route path="/read-more" element={<ReadMore />} />
     </Routes>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./blog.css";
 import { BsArrowRightShort } from "react-icons/bs";
 // Import Images ========================>
@@ -72,15 +73,15 @@ const Blog = () => {
                     {desc}
                   </p>
 
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
                     className="flex"
                     data-aos="fade-up"
                     data-aos-duration="3500"
                   >
                     {" "}
                     Read More <BsArrowRightShort className="icon" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             );

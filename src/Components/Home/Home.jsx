@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import './home.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -19,7 +20,7 @@ import 'aos/dist/aos.css'
            Wander Far, Feel at Home Everywhere!
            </p>
            <button data-aos="fade-up" data-aos-duration="3000" className="btn">
-                <a href="#">Explore Now</a>
+                <Link to="/explore">Explore Now</Link>
               </button>
         </div>
 
